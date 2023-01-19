@@ -90,7 +90,7 @@ export const App = () => {
         </Box>
       )}
       {isLoading && items.length > 0 && <Loader />}
-      {items.length > 0 && <Button onLoadMore={onLoadMore}>Load more</Button>}
+      {items.length > 0 && <Button onLoadMore={onLoadMore}>Load moreeeee</Button>}
     </div>
   );
 };
